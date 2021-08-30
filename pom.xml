@@ -98,7 +98,7 @@
                         <image>
                             <name>${project.artifactId}</name>
                             <build>
-                                <from>java:8-jdk-alpine</from>
+                                <from>adoptopenjdk/openjdk11:latest</from>
                                 <entryPoint>
                                     <exec>
                                         <args>java</args>
